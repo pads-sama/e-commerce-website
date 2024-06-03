@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div
+    <section
       className="bg-cover bg-no-repeat bg-center py-20 sm:py-36 lg:px-10"
       style={{ backgroundImage: 'url("images/banner-bg.jpg")' }}
     >
@@ -26,7 +26,7 @@ const Hero = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
