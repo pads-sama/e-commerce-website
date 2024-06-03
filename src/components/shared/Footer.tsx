@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <>
       {/* <!-- footer --> */}
-      <footer className="bg-white pt-16 pb-12 border-t border-gray-100">
+      <footer className="bg-white pt-16 pb-12 border-t border-gray-100 lg:px-10">
         <div className="container grid sm:grid-cols-3">
           <div className="col-span-1 space-y-4">
             <img src="images/logo.svg" alt="logo" className="w-30" />
@@ -157,8 +157,8 @@ const Footer = () => {
       {/* <!-- ./footer -->
 
     <!-- copyright --> */}
-      <div className="bg-gray-800 py-4">
-        <div className="container flex items-center justify-between">
+      <div className="bg-gray-800 py-4 lg:px-10">
+        <div className="container flex items-center justify-between flex-wrap gap-5 text-sm">
           <p className="text-white">&copy; TailCommerce - All Right Reserved</p>
           <div>
             <img src="images/methods.png" alt="methods" className="h-5" />

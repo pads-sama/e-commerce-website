@@ -6,11 +6,9 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
 const Navigation = () => {
-  console.log("rendered multiple times");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleMenuToggle = () => {
-    console.log("clicked");
     setIsMenuOpen((prev) => !prev);
   };
   return (
